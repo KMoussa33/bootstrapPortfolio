@@ -20,6 +20,7 @@ footer {
 }
 
 .jumbotron {
+    margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #3b463f, #dde4e0, #868d89);
     color: rgb(231, 243, 233);
@@ -33,4 +34,8 @@ footer {
 
 h5 {
     color:rgb(191, 202, 193)
+}
+
+.navbar {
+    background-color: #111111;
 }
