@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
     <title>Kelsey Moussa Portfolio</title>
 </head>
@@ -55,11 +56,74 @@
             </div>
         </div>
 
-        <div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna arcu, mollis ac nibh sit amet, tempor tincidunt turpis. Integer dignissim mauris et sem fermentum finibus. Nam mollis consectetur rutrum. Cras semper, tortor vitae accumsan tincidunt, mauris nibh vulputate elit, vitae lacinia eros ante nec augue. Etiam non aliquam leo. Aliquam efficitur nisi vitae elementum viverra. Mauris a dui tempor, elementum urna ut, sollicitudin nisl. Morbi turpis justo, egestas id leo at, varius luctus orci.</p>
+        <div class="row row-content align-items-center">
+            <div class="col">
+                <a role="button" class="btn btn-link" href="tel:+19478861318"><i class="fa fa-phone"></i> 1-947-886-1318</a><br />
+                <a role="button" class="btn btn-link" href="mailto:kelsey.moussa@gmail.com"><i class="fa fa-envelope-o"></i> kelsey.moussa@gmail.com</a>
             </div>
         </div>
+
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Send me your Feedback</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May I contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                <label for="contactYes" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-dark" >Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
     </div>
 
     <footer>
@@ -76,13 +140,13 @@
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/"><i class="fa fa-instagram text-white"></i></a>
-                    <a href="http://facebook.com/"><i class="fa fa-facebook text-white"></i></a>
-                    <a href="http://github.com/"><i class="fa fa-github text-white"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-github" href="http://github.com/"><i class="fa fa-github"></i></a>
                 </div>
-                <div class="col-sm-4 text-center text-white">
-                    <i class="fa fa-phone fa-lg text-white"></i> 1-947-886-1318<br />
-                    <i class="fa fa-envelope fa-lg text-white"></i> kelsey.moussa@gmail.com
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link text-white" href="tel:+19478861318"><i class="fa fa-phone text-white"></i> 1-947-886-1318<br />
+                        <a role="button" class="btn btn-link text-white" href="mailto:kelsey.moussa@gmail.com"><i class="fa fa-envelope-o text-white"></i> kelsey.moussa@gmail.com
                 </div>
             </div>
         </div>
