@@ -1,63 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
 
-    <title>Kelsey Moussa Portfolio</title>
-</head>
+    <title>Kelsey Moussa</title>
+  </head>
 
-<body>
-
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Kelsey A.</h1>
-                    <h2>Moussa</h2>
-                </div>
-            </div>
-        </div>
-    </header>
-
+  <body>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolioNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="portfolioNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html"><i class="fa fa-list fa-lg"></i> Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <a href="#" class="navbar-brand"> Kelsey Moussa </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#portfolioNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="portfolioNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About"> About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Certificates"> Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills"> Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects"> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact"> Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h1 class="text-sm-left">Web developer in training.</h1>
-            </div>
-             <div class="col">   
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/blkwt.jpg" alt="Black & White image of myself" />
+    <div id="About">
+      <div class="container-fluid pt-5">
+        <div class="row jumbotron jumbotron-fluid p-3">
+          <div class="col text-center">
+            <div class="container-fluid pb-5">
+              <div class="row welcome text-center mx-auto">
+                <div class="col-12">
+                  <h1 class="display-4 border-bottom pb-3 mt-4">About Me</h1>
                 </div>
+                <p class="lead text-center">
+                  My name is Kelsey Moussa.<br />
+                  I am a newly graduated Full Stack Web Developer. <br />
+                  After fully recovering from a traumatic brain injury I made
+                  the decision to change my career path & delve deep into the
+                  world of coding. <br />
+                  Since my very first Hello World! I've been in love with Web
+                  Development and am certain I've found my calling.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <footer>
+    <div id="Certificates">
+      <div class="container-fluid pt-5">
+        <div class="row welcome mx-auto text-center pt-5">
+          <div class="col-12">
+            <h1 class="display-4">My Certificates</h1>
+          </div>
+          <hr class="border border-default mt-1 mb-3" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+      <div class="row text-center pb-5">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/HTML,_CSS_and_JavaScript-HTML,_CSS_and_JavaScript_Course_Certificate_152931024_1.jpg"
+              width="250"
+              height="300"
+              alt="Web Dev"
+            />
+            <p>Web Fundamentals Bootcamp</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Data_Structure_and_Algorithms_with_Python_Course_Certificate_160541024_1.jpg"
+              width="250"
+              height="300"
+              alt="Python"
+            />
+            <p>Python Fundamentals<br />Data Structures, and Algorithms</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Front_End_Web_UI_Frameworks_and_Tools_SQL_and_Data_Modeling_with_Python_Course_Certificate_166951024_1.jpg"
+              width="250"
+              height="300"
+              alt="SQL and Python"
+            />
+            <p>SQL and Python</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Modern_Software_Engineering_with_DevOps.jpg"
+              width="250"
+              height="300"
+              alt="Devops"
+            />
+            <p>Modern Software Engineering<br />with DevOps</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Modern_Software_Engineering_with_DevOps-Backend,_SQL,_and_DevOps_with_Python_Development_Certificate_171951024_1.jpg"
+              width="250"
+              height="300"
+              alt="DevOps"
+            />
+            <p>Backend Python, SQL, and <br />Devops Bootcamp</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap.jpg"
+              width="250"
+              height="300"
+              alt="Bootstrap"
+            />
+            <p>Front-End Web UI Framework<br />Bootstrap</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Dynamic_with_React-React_Course_Certificate_185761024_1.jpg"
+              width="250"
+              height="300"
+              alt="React"
+            />
+            <p>Front End JavaScript Library<br />React</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Front_End_React_Native.jpg"
+              width="250"
+              height="300"
+              alt="React Native"
+            />
+            <p>Multiplatform Mobile App Development<br />with React Native</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="item">
+              <img
+                class="enlarge"
+                src="img/Front_End_Web.jpg"
+                width="250"
+                height="300"
+                alt="Web Mobile Bootcamp"
+              />
+              <p>Front End Web and Mobile<br />Development Bootcamp</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="item">
+            <img
+              class="enlarge"
+              src="img/Backend_with_NodeJS-Full_Stack_Web_and_Mobile_Development_Certificate_198031024_1.jpg"
+              width="250"
+              height="300"
+              alt="NodeJS with Express"
+            />
+            <p>Server-side Development with NodeJS<br />Express and MongoDB</p>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!-- <footer>
         <div class="container">
             <div class="row">             
                 <div class="col-6 col-sm-5 text-center">
@@ -72,12 +242,10 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>
