@@ -39,6 +39,7 @@ footer {
 .enlarge:hover {
   width: 115%;
   height: 115%;
+  justify-content: space-evenly;
 }
 
 h5 {
